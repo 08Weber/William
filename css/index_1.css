@@ -14,7 +14,7 @@ body,
 }
 
 html, body, #root {
-    height: 100%;
+    height: calc(100vh + env(safe-area-inset-bottom));
 }
 
 .content {
